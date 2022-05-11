@@ -49,7 +49,7 @@
 <b>Warnings:
 <ul>
   <li>(MIGHT ADD A LITTLE TOO MUCH MAGIC)</li>
-  <li>\.  <br />
+  <li><pre>\.  <br />
      \'.      ;.  <br />
       \ '. ,--''-.~-~-'-,  <br />
        \,-' ,-.   '.~-~-~~,  <br />
@@ -61,7 +61,7 @@
                \         \*=~-"  <br />
           rs    \         "=====----  <br />
                  \  <br />
-                  \</li>
+                  \</pre></li>
 </ul>
 </b>
 
