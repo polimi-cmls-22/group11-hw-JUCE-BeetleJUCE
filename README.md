@@ -5,7 +5,7 @@
 
 <b>What.
 <ul>
-  This is a Flanger plugin. 
+  This is a free Flanger plugin. 
 </ul>
 <ul>Developed for you to save money on plugins :) </ul>
 </b>
@@ -48,8 +48,20 @@
 
 <b>Warnings:
 <ul>
-  <li></li>
-  <li></li>
+  <li>(MIGHT ADD A LITTLE TOO MUCH MAGIC)</li>
+  <li>\.
+     \'.      ;.
+      \ '. ,--''-.~-~-'-,
+       \,-' ,-.   '.~-~-~~,
+     ,-'   (###)    \-~'~=-.
+ _,-'       '-'      \=~-"~~',
+/o                    \~-""~=-,
+\__                    \=-,~"-~,
+   """===-----.         \~=-"~-.
+               \         \*=~-"
+          rs    \         "=====----
+                 \
+                  \</li>
 </ul>
 </b>
 
