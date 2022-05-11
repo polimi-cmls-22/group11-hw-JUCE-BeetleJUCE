@@ -264,11 +264,9 @@ void FlangerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juce:
     
     // We decided to use the AudioProcessorValueTreeState class to retrieve the parameters of choice of the user, then processed by our plugin.
     float speedP = apvts.getRawParameterValue("SPEED")->load();
-    // delay in seconds
-    float delayP = apvts.getRawParameterValue("DELAY")->load() / 1000.0f; 
+    float delayP = apvts.getRawParameterValue("DELAY")->load() / 1000.0f; // delay in seconds
     float fbP = apvts.getRawParameterValue("FB")->load();
-    // sweep in seconds
-    float sweepP = apvts.getRawParameterValue("SWEEP")->load() / 1000.0f * 5.0f;
+    float sweepP = apvts.getRawParameterValue("SWEEP")->load() / 1000.0f * 5.0f; // sweep in seconds
     float gP = apvts.getRawParameterValue("FF")->load();
     int interpolP = apvts.getRawParameterValue("INTERPOL")->load();
     int waveP = apvts.getRawParameterValue("WAVE")->load();
@@ -280,7 +278,7 @@ void FlangerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juce:
 
     for (channel = 0; channel < numInputChannels; ++channel)
     {
-        // channelInData and channelOutData are two arrays of length numSamples which contains the audio to be processed
+        // channelInData and channelOutData are two arrays of length numSamples which contain the audio to be processed
         const float* channelInData = buffer.getReadPointer(channel);
         float* channelOutData = buffer.getWritePointer(channel);
 
