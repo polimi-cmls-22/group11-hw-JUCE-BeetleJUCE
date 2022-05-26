@@ -28,7 +28,7 @@ FlangerAudioProcessorEditor::FlangerAudioProcessorEditor(FlangerAudioProcessor& 
     delaySlider.setSliderStyle(juce::Slider::LinearHorizontal);
     delaySlider.setTextBoxStyle(juce::Slider::TextBoxBelow, false, 100, 20);
 
-    delayLabel.setText("Delay/Amount", juce::dontSendNotification);
+    delayLabel.setText("Delay/Amount [ms]", juce::dontSendNotification);
 
     addAndMakeVisible(delaySlider);
     addAndMakeVisible(delayLabel);
