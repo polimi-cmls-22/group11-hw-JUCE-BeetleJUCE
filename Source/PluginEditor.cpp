@@ -20,7 +20,7 @@ FlangerAudioProcessorEditor::FlangerAudioProcessorEditor(FlangerAudioProcessor& 
     : AudioProcessorEditor(&p), audioProcessor(p), sliders(p)
 {
     // Logo
-    auto img = juce::ImageCache::getFromFile(juce::File("G:/Documenti/POLIMI/1_2/CMLS/2-Plugins/Homework/Flanger_private/Flanger/Source/Res/logo.png"));
+    auto img = juce::ImageCache::getFromMemory(BinaryData::logo_png, BinaryData::logo_pngSize);
     logo.setImage(img, juce::RectanglePlacement::stretchToFit);
     addAndMakeVisible(logo);
 
